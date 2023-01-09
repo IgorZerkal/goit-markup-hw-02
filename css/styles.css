@@ -1,0 +1,129 @@
+:root {
+    --primary-fond:'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--primary-fond);
+}
+
+*{
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.contact-info-link {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.link:hover,
+.link:focus{
+    color: #404BBF;
+}
+
+
+.list {
+    list-style: none;
+}
+
+
+
+.modal_btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    cursor: pointer;
+}
+
+                     /* Шапка */
+.modal_btn:hover,
+.modal_btn:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+
+}
+                    /* Банер */
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+---------------/* Бизнес решение без заголовка */
+
+.title-paragraphs {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.text-paragraphs {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.titles {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+--------------------/* Фото Команды */
+
+.name-of-pictures {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+
+}
+
+.pictures-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+-----------------------/* Подвал */
+
+.text-footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
