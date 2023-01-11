@@ -1,5 +1,6 @@
 :root {
     --primary-fond:'Roboto', sans-serif;
+    --accent-color:#2E2F42;
 }
 
 body {
@@ -43,10 +44,30 @@ body {
 
 
 
-.modal_btn {
+/* .modal-btn-b {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+} */
+
+/* ----------------------Шапка */
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.modal-btn-a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
@@ -55,14 +76,21 @@ body {
     cursor: pointer;
 }
 
-                     /* Шапка */
-.modal_btn:hover,
-.modal_btn:focus {
-    background-color: #404BBF;
+h1 {
+    background: #2E2F42;
     color: #FFFFFF;
-
 }
-                    /* Банер */
+
+/* h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+} */
+
+/* ---------------------Банер */
 
 .main-title {
     font-weight: 700;
@@ -70,16 +98,21 @@ body {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    background: #2E2F42;
 }
 
----------------/* Бизнес решение без заголовка */
+/* .modal-btn {
+    cursor: pointer;
+} */
+
+/* ---------------Бизнес решение без заголовка */
 
 .title-paragraphs {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--accent-color)
 }
 
 .text-paragraphs {
@@ -93,19 +126,19 @@ body {
 .titles {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--accent-color)
 }
 
---------------------/* Фото Команды */
+/* --------------------Фото Команды */
 
 .name-of-pictures {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--accent-color)
 
 }
 
@@ -118,7 +151,7 @@ body {
 
 }
 
------------------------/* Подвал */
+/* -----------------------Подвал */
 
 .text-footer {
     font-weight: 400;
@@ -126,4 +159,42 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+    background: #2E2F42;
 }
+
+.top-footer {
+    background: #2E2F42;
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #F4F4FD;
+}
+
+
+/* -------------------Наши услуги кнопки */
+
+.modal-btn-b {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    cursor: pointer;
+}
+
+.modal-btn-b:hover,
+.modal-btn-b:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+
+/* ------------------Наши услуги */
