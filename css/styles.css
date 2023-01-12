@@ -11,26 +11,17 @@ body {
     margin: 0;
 }
 
+.list {
+    list-style: none;
+}
+
 .link {
     text-decoration: none;
     font-style: normal;
-    
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #2E2F42;
 }
-
-.contact-info-link {
     
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
 
 .link:hover,
 .link:focus{
@@ -38,9 +29,11 @@ body {
 }
 
 
-.list {
-    list-style: none;
-}
+
+
+
+
+
 
 
 
@@ -58,22 +51,61 @@ body {
 
 /* ----------------------Шапка */
 
-.modal-btn:hover,
-.modal-btn:focus {
+.web {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.modal-btn-a:hover:hover,
+.modal-btn-a:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 }
 
 .modal-btn-a {
+    font-family:var(--primary-fond);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #4D5AE5;
+    color: #4D5AE5;
+    background: #F4F4FD;
     cursor: pointer;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.contact-info-link {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* h1 {
@@ -97,8 +129,12 @@ body {
     font-size: 56px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #ffffff;
     /* background-color: #2E2F42; */
+}
+
+.hero {
+    background: #2E2F42;
 }
 
 /* .modal-btn {
@@ -116,7 +152,6 @@ body {
 }
 
 .text-paragraphs {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -143,7 +178,6 @@ body {
 }
 
 .pictures-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -154,7 +188,6 @@ body {
 /* -----------------------Подвал */
 
 .text-footer {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -180,6 +213,7 @@ body {
 /* -------------------Наши услуги кнопки */
 
 .modal-btn-b {
+    font-family:var(--primary-fond);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
