@@ -22,20 +22,10 @@ body {
 }
     
 
-
 .link:hover,
 .link:focus{
     color: #404BBF;
 }
-
-
-
-
-
-
-
-
-
 
 /* .modal-btn-b {
     font-weight: 500;
@@ -61,7 +51,8 @@ body {
     color: #4D5AE5;
 }
 
-.logo {
+.logo-top {
+    text-decoration:none;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -85,12 +76,12 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background: #F4F4FD;
+    color: #ffffff;
+    background: #4D5AE5;
     cursor: pointer;
 }
 
-.menu-link {
+.menu-link .menu-item{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -200,6 +191,7 @@ body {
 }
 
 .logo-footer {
+    text-decoration:none;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -207,6 +199,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     color: #F4F4FD;
+    cursor: pointer;
 }
 
 
